@@ -1,7 +1,7 @@
 CC = g++
-CCFLAGS = -c++=11
-LDFLAGS = 
-TARGET = modificado original
+CCFLAGS = -std=c++14 -fopenmp
+LDFLAGS = -fopenmp
+TARGET = knights-queens original
 EXE =
 
 all: $(TARGET)
